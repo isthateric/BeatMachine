@@ -1,42 +1,36 @@
 //
-//  ViewController.swift
-//  BeatMachine
+//  InterfaceController.swift
+//  BeatWatch Extension
 //
 //  Created by Eric Fuentes on 3/22/19.
 //  Copyright © 2019 Eric Fuentes. All rights reserved.
 //
 
-import UIKit
+import WatchKit
 import Foundation
-
 import AVFoundation
 
-class ViewController: UIViewController, AVAudioPlayerDelegate {
+class InterfaceController: WKInterfaceController, AVAudioPlayerDelegate {
 
     var audioPlayer : AVAudioPlayer!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-
-    
-    
-    @IBAction func beat1(_ sender: Any) {
+    override func awake(withContext context: Any?) {
+        super.awake(withContext: context)
         
-        let soundURL = Bundle.main.url(forResource: "808 3 (C)", withExtension: "wav")
-        do{
-            audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
-        }
-        catch{
-            print(error)
-        }
-        audioPlayer.play()
+        // Configure interface objects here.
     }
     
-    @IBAction func beat2(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "Chant 1", ofType: "wav")
+    override func willActivate() {
+        // This method is called when watch view controller is about to be visible to user
+        super.willActivate()
+    }
+    
+    override func didDeactivate() {
+        // This method is called when watch view controller is no longer visible
+        super.didDeactivate()
+    }
+    func playMyFile() {
+        
+        let path = Bundle.main.path(forResource: "Kick1", ofType: "wav")
         let fileURL = NSURL(fileURLWithPath: path!)
         
         do {
@@ -48,8 +42,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         audioPlayer.play()
     }
     
-    @IBAction func beat3(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "Clap 3", ofType: "wav")
+    
+    
+    @IBAction func beat1() {
+      playMyFile()
+    }
+    @IBAction func beat2() {
+        let path = Bundle.main.path(forResource: "Kick2", ofType: "wav")
         let fileURL = NSURL(fileURLWithPath: path!)
         
         do {
@@ -61,8 +60,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         audioPlayer.play()
     }
     
-    @IBAction func beat4(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "Clap 4", ofType: "wav")
+    @IBAction func beat3() {
+        let path = Bundle.main.path(forResource: "Kick3", ofType: "wav")
         let fileURL = NSURL(fileURLWithPath: path!)
         
         do {
@@ -73,8 +72,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         audioPlayer.prepareToPlay()
         audioPlayer.play()
     }
-    @IBAction func beat5(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "Clap 5", ofType: "wav")
+    @IBAction func beat4() {
+        let path = Bundle.main.path(forResource: "Kick4", ofType: "wav")
         let fileURL = NSURL(fileURLWithPath: path!)
         
         do {
@@ -85,8 +84,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         audioPlayer.prepareToPlay()
         audioPlayer.play()
     }
-    @IBAction func beat6(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "Chant 6", ofType: "wav")
+    @IBAction func beat5() {
+        let path = Bundle.main.path(forResource: "Kick5", ofType: "wav")
         let fileURL = NSURL(fileURLWithPath: path!)
         
         do {
@@ -97,9 +96,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         audioPlayer.prepareToPlay()
         audioPlayer.play()
     }
-    
-    @IBAction func beat7(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "note7", ofType: "wav")
+    @IBAction func beat6() {
+        let path = Bundle.main.path(forResource: "Kick6", ofType: "wav")
         let fileURL = NSURL(fileURLWithPath: path!)
         
         do {
@@ -110,21 +108,5 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         audioPlayer.prepareToPlay()
         audioPlayer.play()
     }
-    
-    @IBAction func beat8(_ sender: Any) {
-    }
-    
-    @IBAction func beat9(_ sender: Any) {
-    }
-    
-    @IBAction func beat10(_ sender: Any) {
-    }
-    @IBAction func beat11(_ sender: Any) {
-    }
-    
-    @IBAction func beat12(_ sender: Any) {
-    }
-    
     
 }
-

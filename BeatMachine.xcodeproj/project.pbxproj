@@ -12,7 +12,221 @@
 		CDCBBB142245C360006E7407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB122245C360006E7407 /* Main.storyboard */; };
 		CDCBBB162245C362006E7407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB152245C362006E7407 /* Assets.xcassets */; };
 		CDCBBB192245C362006E7407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB172245C362006E7407 /* LaunchScreen.storyboard */; };
+		CDCBBB262245C3E6006E7407 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB242245C3E6006E7407 /* Interface.storyboard */; };
+		CDCBBB282245C3E8006E7407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB272245C3E8006E7407 /* Assets.xcassets */; };
+		CDCBBB2F2245C3E9006E7407 /* BeatWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CDCBBB2E2245C3E9006E7407 /* BeatWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDCBBB342245C3E9006E7407 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCBBB332245C3E9006E7407 /* InterfaceController.swift */; };
+		CDCBBB362245C3E9006E7407 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCBBB352245C3E9006E7407 /* ExtensionDelegate.swift */; };
+		CDCBBB382245C3E9006E7407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB372245C3E9006E7407 /* Assets.xcassets */; };
+		CDCBBB3C2245C3E9006E7407 /* BeatWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CDCBBB222245C3E6006E7407 /* BeatWatch.app */; };
+		CDCBBB472245CCB2006E7407 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB462245CCB2006E7407 /* note1.wav */; };
+		CDCBBB492245CCB8006E7407 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB482245CCB8006E7407 /* note2.wav */; };
+		CDCBBB4F2245CCC1006E7407 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4A2245CCC1006E7407 /* note4.wav */; };
+		CDCBBB502245CCC1006E7407 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4B2245CCC1006E7407 /* note5.wav */; };
+		CDCBBB512245CCC1006E7407 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4C2245CCC1006E7407 /* note6.wav */; };
+		CDCBBB522245CCC1006E7407 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4D2245CCC1006E7407 /* note7.wav */; };
+		CDCBBB532245CCC1006E7407 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4E2245CCC1006E7407 /* note3.wav */; };
+		CDCBBB542245D22F006E7407 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB462245CCB2006E7407 /* note1.wav */; };
+		CDCBBB552245D234006E7407 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB482245CCB8006E7407 /* note2.wav */; };
+		CDCBBB562245D23C006E7407 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4E2245CCC1006E7407 /* note3.wav */; };
+		CDCBBB572245D23F006E7407 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4A2245CCC1006E7407 /* note4.wav */; };
+		CDCBBB582245D243006E7407 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4B2245CCC1006E7407 /* note5.wav */; };
+		CDCBBB592245D246006E7407 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4C2245CCC1006E7407 /* note6.wav */; };
+		CDCBBB5A2245D24A006E7407 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4D2245CCC1006E7407 /* note7.wav */; };
+		CDCBBB5B2247213D006E7407 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB462245CCB2006E7407 /* note1.wav */; };
+		CDCBBB5C22472143006E7407 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB482245CCB8006E7407 /* note2.wav */; };
+		CDCBBB5D22472146006E7407 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4E2245CCC1006E7407 /* note3.wav */; };
+		CDCBBB5E22472149006E7407 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4A2245CCC1006E7407 /* note4.wav */; };
+		CDCBBB5F2247214C006E7407 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4B2245CCC1006E7407 /* note5.wav */; };
+		CDCBBB602247214E006E7407 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4C2245CCC1006E7407 /* note6.wav */; };
+		CDCBBB6122472150006E7407 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB4D2245CCC1006E7407 /* note7.wav */; };
+		CDCBBB77224727DB006E7407 /* Kick6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6A224727DA006E7407 /* Kick6.wav */; };
+		CDCBBB78224727DB006E7407 /* Kick6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6A224727DA006E7407 /* Kick6.wav */; };
+		CDCBBB79224727DB006E7407 /* Kick6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6A224727DA006E7407 /* Kick6.wav */; };
+		CDCBBB7A224727DB006E7407 /* NIGHTSKICK2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6B224727DA006E7407 /* NIGHTSKICK2.wav */; };
+		CDCBBB7B224727DB006E7407 /* NIGHTSKICK2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6B224727DA006E7407 /* NIGHTSKICK2.wav */; };
+		CDCBBB7C224727DB006E7407 /* NIGHTSKICK2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6B224727DA006E7407 /* NIGHTSKICK2.wav */; };
+		CDCBBB7D224727DB006E7407 /* NIGHTSKICK.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6C224727DA006E7407 /* NIGHTSKICK.wav */; };
+		CDCBBB7E224727DB006E7407 /* NIGHTSKICK.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6C224727DA006E7407 /* NIGHTSKICK.wav */; };
+		CDCBBB7F224727DB006E7407 /* NIGHTSKICK.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6C224727DA006E7407 /* NIGHTSKICK.wav */; };
+		CDCBBB80224727DB006E7407 /* Kick1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6D224727DA006E7407 /* Kick1.wav */; };
+		CDCBBB81224727DB006E7407 /* Kick1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6D224727DA006E7407 /* Kick1.wav */; };
+		CDCBBB82224727DB006E7407 /* Kick1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6D224727DA006E7407 /* Kick1.wav */; };
+		CDCBBB83224727DB006E7407 /* Kick9.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6E224727DA006E7407 /* Kick9.wav */; };
+		CDCBBB84224727DB006E7407 /* Kick9.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6E224727DA006E7407 /* Kick9.wav */; };
+		CDCBBB85224727DB006E7407 /* Kick9.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6E224727DA006E7407 /* Kick9.wav */; };
+		CDCBBB86224727DB006E7407 /* Kick7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6F224727DA006E7407 /* Kick7.wav */; };
+		CDCBBB87224727DB006E7407 /* Kick7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6F224727DA006E7407 /* Kick7.wav */; };
+		CDCBBB88224727DB006E7407 /* Kick7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB6F224727DA006E7407 /* Kick7.wav */; };
+		CDCBBB89224727DB006E7407 /* Kick8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB70224727DA006E7407 /* Kick8.wav */; };
+		CDCBBB8A224727DB006E7407 /* Kick8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB70224727DA006E7407 /* Kick8.wav */; };
+		CDCBBB8B224727DB006E7407 /* Kick8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB70224727DA006E7407 /* Kick8.wav */; };
+		CDCBBB8C224727DB006E7407 /* Kick10.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB71224727DA006E7407 /* Kick10.wav */; };
+		CDCBBB8D224727DB006E7407 /* Kick10.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB71224727DA006E7407 /* Kick10.wav */; };
+		CDCBBB8E224727DB006E7407 /* Kick10.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB71224727DA006E7407 /* Kick10.wav */; };
+		CDCBBB8F224727DB006E7407 /* NIKESKICK.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB72224727DA006E7407 /* NIKESKICK.wav */; };
+		CDCBBB90224727DB006E7407 /* NIKESKICK.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB72224727DA006E7407 /* NIKESKICK.wav */; };
+		CDCBBB91224727DB006E7407 /* NIKESKICK.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB72224727DA006E7407 /* NIKESKICK.wav */; };
+		CDCBBB92224727DB006E7407 /* Kick4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB73224727DB006E7407 /* Kick4.wav */; };
+		CDCBBB93224727DB006E7407 /* Kick4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB73224727DB006E7407 /* Kick4.wav */; };
+		CDCBBB94224727DB006E7407 /* Kick4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB73224727DB006E7407 /* Kick4.wav */; };
+		CDCBBB95224727DB006E7407 /* Kick5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB74224727DB006E7407 /* Kick5.wav */; };
+		CDCBBB96224727DB006E7407 /* Kick5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB74224727DB006E7407 /* Kick5.wav */; };
+		CDCBBB97224727DB006E7407 /* Kick5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB74224727DB006E7407 /* Kick5.wav */; };
+		CDCBBB98224727DB006E7407 /* Kick2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB75224727DB006E7407 /* Kick2.wav */; };
+		CDCBBB99224727DB006E7407 /* Kick2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB75224727DB006E7407 /* Kick2.wav */; };
+		CDCBBB9A224727DB006E7407 /* Kick2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB75224727DB006E7407 /* Kick2.wav */; };
+		CDCBBB9B224727DB006E7407 /* Kick3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB76224727DB006E7407 /* Kick3.wav */; };
+		CDCBBB9C224727DB006E7407 /* Kick3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB76224727DB006E7407 /* Kick3.wav */; };
+		CDCBBB9D224727DB006E7407 /* Kick3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBB76224727DB006E7407 /* Kick3.wav */; };
+		CDCBBBCD2249F171006E7407 /* 808 5 (D).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBBF2249F16F006E7407 /* 808 5 (D).wav */; };
+		CDCBBBCE2249F171006E7407 /* 808 5 (D).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBBF2249F16F006E7407 /* 808 5 (D).wav */; };
+		CDCBBBCF2249F171006E7407 /* 808 5 (D).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBBF2249F16F006E7407 /* 808 5 (D).wav */; };
+		CDCBBBD02249F171006E7407 /* 808 6 (G#).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC02249F16F006E7407 /* 808 6 (G#).wav */; };
+		CDCBBBD12249F171006E7407 /* 808 6 (G#).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC02249F16F006E7407 /* 808 6 (G#).wav */; };
+		CDCBBBD22249F171006E7407 /* 808 6 (G#).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC02249F16F006E7407 /* 808 6 (G#).wav */; };
+		CDCBBBD32249F171006E7407 /* 808 4 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC12249F16F006E7407 /* 808 4 (C).wav */; };
+		CDCBBBD42249F171006E7407 /* 808 4 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC12249F16F006E7407 /* 808 4 (C).wav */; };
+		CDCBBBD52249F171006E7407 /* 808 4 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC12249F16F006E7407 /* 808 4 (C).wav */; };
+		CDCBBBD62249F171006E7407 /* 808 7 (D#).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC22249F16F006E7407 /* 808 7 (D#).wav */; };
+		CDCBBBD72249F171006E7407 /* 808 7 (D#).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC22249F16F006E7407 /* 808 7 (D#).wav */; };
+		CDCBBBD82249F171006E7407 /* 808 7 (D#).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC22249F16F006E7407 /* 808 7 (D#).wav */; };
+		CDCBBBD92249F171006E7407 /* 808 3 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC32249F170006E7407 /* 808 3 (C).wav */; };
+		CDCBBBDA2249F171006E7407 /* 808 3 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC32249F170006E7407 /* 808 3 (C).wav */; };
+		CDCBBBDB2249F171006E7407 /* 808 3 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC32249F170006E7407 /* 808 3 (C).wav */; };
+		CDCBBBDC2249F171006E7407 /* 808 2 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC42249F170006E7407 /* 808 2 (C).wav */; };
+		CDCBBBDD2249F171006E7407 /* 808 2 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC42249F170006E7407 /* 808 2 (C).wav */; };
+		CDCBBBDE2249F171006E7407 /* 808 2 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC42249F170006E7407 /* 808 2 (C).wav */; };
+		CDCBBBDF2249F171006E7407 /* 808 11 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC52249F170006E7407 /* 808 11 (C).wav */; };
+		CDCBBBE02249F171006E7407 /* 808 11 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC52249F170006E7407 /* 808 11 (C).wav */; };
+		CDCBBBE12249F171006E7407 /* 808 11 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC52249F170006E7407 /* 808 11 (C).wav */; };
+		CDCBBBE22249F171006E7407 /* 808 13 (E).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC62249F170006E7407 /* 808 13 (E).wav */; };
+		CDCBBBE32249F171006E7407 /* 808 13 (E).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC62249F170006E7407 /* 808 13 (E).wav */; };
+		CDCBBBE42249F171006E7407 /* 808 13 (E).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC62249F170006E7407 /* 808 13 (E).wav */; };
+		CDCBBBE52249F171006E7407 /* 808 10 (G).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC72249F170006E7407 /* 808 10 (G).wav */; };
+		CDCBBBE62249F171006E7407 /* 808 10 (G).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC72249F170006E7407 /* 808 10 (G).wav */; };
+		CDCBBBE72249F171006E7407 /* 808 10 (G).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC72249F170006E7407 /* 808 10 (G).wav */; };
+		CDCBBBE82249F171006E7407 /* 808 14 (D#).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC82249F170006E7407 /* 808 14 (D#).wav */; };
+		CDCBBBE92249F171006E7407 /* 808 14 (D#).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC82249F170006E7407 /* 808 14 (D#).wav */; };
+		CDCBBBEA2249F171006E7407 /* 808 14 (D#).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC82249F170006E7407 /* 808 14 (D#).wav */; };
+		CDCBBBEB2249F171006E7407 /* 808 9 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC92249F170006E7407 /* 808 9 (C).wav */; };
+		CDCBBBEC2249F171006E7407 /* 808 9 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC92249F170006E7407 /* 808 9 (C).wav */; };
+		CDCBBBED2249F171006E7407 /* 808 9 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBC92249F170006E7407 /* 808 9 (C).wav */; };
+		CDCBBBEE2249F171006E7407 /* 808 12 (E).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBCA2249F171006E7407 /* 808 12 (E).wav */; };
+		CDCBBBEF2249F171006E7407 /* 808 12 (E).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBCA2249F171006E7407 /* 808 12 (E).wav */; };
+		CDCBBBF02249F171006E7407 /* 808 12 (E).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBCA2249F171006E7407 /* 808 12 (E).wav */; };
+		CDCBBBF12249F171006E7407 /* 808 1 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBCB2249F171006E7407 /* 808 1 (C).wav */; };
+		CDCBBBF22249F171006E7407 /* 808 1 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBCB2249F171006E7407 /* 808 1 (C).wav */; };
+		CDCBBBF32249F171006E7407 /* 808 1 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBCB2249F171006E7407 /* 808 1 (C).wav */; };
+		CDCBBBF42249F171006E7407 /* 808 8 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBCC2249F171006E7407 /* 808 8 (C).wav */; };
+		CDCBBBF52249F171006E7407 /* 808 8 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBCC2249F171006E7407 /* 808 8 (C).wav */; };
+		CDCBBBF62249F171006E7407 /* 808 8 (C).wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBCC2249F171006E7407 /* 808 8 (C).wav */; };
+		CDCBBC072249F258006E7407 /* Clap 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBF82249F256006E7407 /* Clap 3.wav */; };
+		CDCBBC082249F258006E7407 /* Clap 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBF82249F256006E7407 /* Clap 3.wav */; };
+		CDCBBC092249F258006E7407 /* Clap 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBF82249F256006E7407 /* Clap 3.wav */; };
+		CDCBBC0A2249F258006E7407 /* Clap 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBF92249F256006E7407 /* Clap 6.wav */; };
+		CDCBBC0B2249F258006E7407 /* Clap 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBF92249F256006E7407 /* Clap 6.wav */; };
+		CDCBBC0C2249F258006E7407 /* Clap 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBF92249F256006E7407 /* Clap 6.wav */; };
+		CDCBBC0D2249F258006E7407 /* Clap 14.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFA2249F257006E7407 /* Clap 14.wav */; };
+		CDCBBC0E2249F258006E7407 /* Clap 14.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFA2249F257006E7407 /* Clap 14.wav */; };
+		CDCBBC0F2249F258006E7407 /* Clap 14.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFA2249F257006E7407 /* Clap 14.wav */; };
+		CDCBBC102249F258006E7407 /* Clap 15.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFB2249F257006E7407 /* Clap 15.wav */; };
+		CDCBBC112249F258006E7407 /* Clap 15.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFB2249F257006E7407 /* Clap 15.wav */; };
+		CDCBBC122249F258006E7407 /* Clap 15.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFB2249F257006E7407 /* Clap 15.wav */; };
+		CDCBBC132249F258006E7407 /* Clap 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFC2249F257006E7407 /* Clap 7.wav */; };
+		CDCBBC142249F258006E7407 /* Clap 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFC2249F257006E7407 /* Clap 7.wav */; };
+		CDCBBC152249F258006E7407 /* Clap 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFC2249F257006E7407 /* Clap 7.wav */; };
+		CDCBBC162249F258006E7407 /* Clap 13.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFD2249F257006E7407 /* Clap 13.wav */; };
+		CDCBBC172249F258006E7407 /* Clap 13.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFD2249F257006E7407 /* Clap 13.wav */; };
+		CDCBBC182249F258006E7407 /* Clap 13.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFD2249F257006E7407 /* Clap 13.wav */; };
+		CDCBBC192249F258006E7407 /* Clap 11.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFE2249F257006E7407 /* Clap 11.wav */; };
+		CDCBBC1A2249F258006E7407 /* Clap 11.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFE2249F257006E7407 /* Clap 11.wav */; };
+		CDCBBC1B2249F258006E7407 /* Clap 11.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFE2249F257006E7407 /* Clap 11.wav */; };
+		CDCBBC1C2249F258006E7407 /* Clap 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFF2249F257006E7407 /* Clap 10.wav */; };
+		CDCBBC1D2249F258006E7407 /* Clap 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFF2249F257006E7407 /* Clap 10.wav */; };
+		CDCBBC1E2249F258006E7407 /* Clap 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBBFF2249F257006E7407 /* Clap 10.wav */; };
+		CDCBBC1F2249F258006E7407 /* Clap 12.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC002249F257006E7407 /* Clap 12.wav */; };
+		CDCBBC202249F258006E7407 /* Clap 12.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC002249F257006E7407 /* Clap 12.wav */; };
+		CDCBBC212249F258006E7407 /* Clap 12.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC002249F257006E7407 /* Clap 12.wav */; };
+		CDCBBC222249F258006E7407 /* Clap 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC012249F257006E7407 /* Clap 4.wav */; };
+		CDCBBC232249F258006E7407 /* Clap 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC012249F257006E7407 /* Clap 4.wav */; };
+		CDCBBC242249F258006E7407 /* Clap 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC012249F257006E7407 /* Clap 4.wav */; };
+		CDCBBC252249F258006E7407 /* Clap 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC022249F258006E7407 /* Clap 2.wav */; };
+		CDCBBC262249F258006E7407 /* Clap 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC022249F258006E7407 /* Clap 2.wav */; };
+		CDCBBC272249F258006E7407 /* Clap 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC022249F258006E7407 /* Clap 2.wav */; };
+		CDCBBC282249F258006E7407 /* Clap 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC032249F258006E7407 /* Clap 8.wav */; };
+		CDCBBC292249F258006E7407 /* Clap 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC032249F258006E7407 /* Clap 8.wav */; };
+		CDCBBC2A2249F258006E7407 /* Clap 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC032249F258006E7407 /* Clap 8.wav */; };
+		CDCBBC2B2249F258006E7407 /* Clap 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC042249F258006E7407 /* Clap 5.wav */; };
+		CDCBBC2C2249F258006E7407 /* Clap 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC042249F258006E7407 /* Clap 5.wav */; };
+		CDCBBC2D2249F258006E7407 /* Clap 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC042249F258006E7407 /* Clap 5.wav */; };
+		CDCBBC2E2249F258006E7407 /* Clap 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC052249F258006E7407 /* Clap 9.wav */; };
+		CDCBBC2F2249F258006E7407 /* Clap 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC052249F258006E7407 /* Clap 9.wav */; };
+		CDCBBC302249F258006E7407 /* Clap 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC052249F258006E7407 /* Clap 9.wav */; };
+		CDCBBC312249F258006E7407 /* Clap 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC062249F258006E7407 /* Clap 1.wav */; };
+		CDCBBC322249F258006E7407 /* Clap 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC062249F258006E7407 /* Clap 1.wav */; };
+		CDCBBC332249F258006E7407 /* Clap 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC062249F258006E7407 /* Clap 1.wav */; };
+		CDCBBC3B2249F296006E7407 /* Chant 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC352249F296006E7407 /* Chant 4.wav */; };
+		CDCBBC3C2249F296006E7407 /* Chant 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC352249F296006E7407 /* Chant 4.wav */; };
+		CDCBBC3D2249F296006E7407 /* Chant 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC352249F296006E7407 /* Chant 4.wav */; };
+		CDCBBC3E2249F296006E7407 /* Chant 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC362249F296006E7407 /* Chant 6.wav */; };
+		CDCBBC3F2249F297006E7407 /* Chant 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC362249F296006E7407 /* Chant 6.wav */; };
+		CDCBBC402249F297006E7407 /* Chant 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC362249F296006E7407 /* Chant 6.wav */; };
+		CDCBBC412249F297006E7407 /* Chant 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC372249F296006E7407 /* Chant 7.wav */; };
+		CDCBBC422249F297006E7407 /* Chant 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC372249F296006E7407 /* Chant 7.wav */; };
+		CDCBBC432249F297006E7407 /* Chant 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC372249F296006E7407 /* Chant 7.wav */; };
+		CDCBBC442249F297006E7407 /* Chant 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC382249F296006E7407 /* Chant 1.wav */; };
+		CDCBBC452249F297006E7407 /* Chant 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC382249F296006E7407 /* Chant 1.wav */; };
+		CDCBBC462249F297006E7407 /* Chant 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC382249F296006E7407 /* Chant 1.wav */; };
+		CDCBBC472249F297006E7407 /* Chant 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC392249F296006E7407 /* Chant 2.wav */; };
+		CDCBBC482249F297006E7407 /* Chant 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC392249F296006E7407 /* Chant 2.wav */; };
+		CDCBBC492249F297006E7407 /* Chant 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC392249F296006E7407 /* Chant 2.wav */; };
+		CDCBBC4A2249F297006E7407 /* Chant 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC3A2249F296006E7407 /* Chant 3.wav */; };
+		CDCBBC4B2249F297006E7407 /* Chant 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC3A2249F296006E7407 /* Chant 3.wav */; };
+		CDCBBC4C2249F297006E7407 /* Chant 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCBBC3A2249F296006E7407 /* Chant 3.wav */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDCBBB302245C3E9006E7407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDCBBB032245C360006E7407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDCBBB2D2245C3E9006E7407;
+			remoteInfo = "BeatWatch Extension";
+		};
+		CDCBBB3A2245C3E9006E7407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDCBBB032245C360006E7407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDCBBB212245C3E6006E7407;
+			remoteInfo = BeatWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDCBBB402245C3E9006E7407 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CDCBBB2F2245C3E9006E7407 /* BeatWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCBBB442245C3E9006E7407 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CDCBBB3C2245C3E9006E7407 /* BeatWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CDCBBB0B2245C360006E7407 /* BeatMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +236,81 @@
 		CDCBBB152245C362006E7407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDCBBB182245C362006E7407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDCBBB1A2245C362006E7407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCBBB222245C3E6006E7407 /* BeatWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCBBB252245C3E6006E7407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CDCBBB272245C3E8006E7407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDCBBB292245C3E8006E7407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCBBB2E2245C3E9006E7407 /* BeatWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BeatWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCBBB332245C3E9006E7407 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CDCBBB352245C3E9006E7407 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CDCBBB372245C3E9006E7407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDCBBB392245C3E9006E7407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCBBB462245CCB2006E7407 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		CDCBBB482245CCB8006E7407 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		CDCBBB4A2245CCC1006E7407 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		CDCBBB4B2245CCC1006E7407 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		CDCBBB4C2245CCC1006E7407 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		CDCBBB4D2245CCC1006E7407 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		CDCBBB4E2245CCC1006E7407 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		CDCBBB6A224727DA006E7407 /* Kick6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick6.wav; sourceTree = "<group>"; };
+		CDCBBB6B224727DA006E7407 /* NIGHTSKICK2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NIGHTSKICK2.wav; sourceTree = "<group>"; };
+		CDCBBB6C224727DA006E7407 /* NIGHTSKICK.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NIGHTSKICK.wav; sourceTree = "<group>"; };
+		CDCBBB6D224727DA006E7407 /* Kick1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick1.wav; sourceTree = "<group>"; };
+		CDCBBB6E224727DA006E7407 /* Kick9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick9.wav; sourceTree = "<group>"; };
+		CDCBBB6F224727DA006E7407 /* Kick7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick7.wav; sourceTree = "<group>"; };
+		CDCBBB70224727DA006E7407 /* Kick8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick8.wav; sourceTree = "<group>"; };
+		CDCBBB71224727DA006E7407 /* Kick10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick10.wav; sourceTree = "<group>"; };
+		CDCBBB72224727DA006E7407 /* NIKESKICK.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NIKESKICK.wav; sourceTree = "<group>"; };
+		CDCBBB73224727DB006E7407 /* Kick4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick4.wav; sourceTree = "<group>"; };
+		CDCBBB74224727DB006E7407 /* Kick5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick5.wav; sourceTree = "<group>"; };
+		CDCBBB75224727DB006E7407 /* Kick2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick2.wav; sourceTree = "<group>"; };
+		CDCBBB76224727DB006E7407 /* Kick3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick3.wav; sourceTree = "<group>"; };
+		CDCBBBBF2249F16F006E7407 /* 808 5 (D).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 5 (D).wav"; sourceTree = "<group>"; };
+		CDCBBBC02249F16F006E7407 /* 808 6 (G#).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 6 (G#).wav"; sourceTree = "<group>"; };
+		CDCBBBC12249F16F006E7407 /* 808 4 (C).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 4 (C).wav"; sourceTree = "<group>"; };
+		CDCBBBC22249F16F006E7407 /* 808 7 (D#).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 7 (D#).wav"; sourceTree = "<group>"; };
+		CDCBBBC32249F170006E7407 /* 808 3 (C).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 3 (C).wav"; sourceTree = "<group>"; };
+		CDCBBBC42249F170006E7407 /* 808 2 (C).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 2 (C).wav"; sourceTree = "<group>"; };
+		CDCBBBC52249F170006E7407 /* 808 11 (C).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 11 (C).wav"; sourceTree = "<group>"; };
+		CDCBBBC62249F170006E7407 /* 808 13 (E).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 13 (E).wav"; sourceTree = "<group>"; };
+		CDCBBBC72249F170006E7407 /* 808 10 (G).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 10 (G).wav"; sourceTree = "<group>"; };
+		CDCBBBC82249F170006E7407 /* 808 14 (D#).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 14 (D#).wav"; sourceTree = "<group>"; };
+		CDCBBBC92249F170006E7407 /* 808 9 (C).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 9 (C).wav"; sourceTree = "<group>"; };
+		CDCBBBCA2249F171006E7407 /* 808 12 (E).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 12 (E).wav"; sourceTree = "<group>"; };
+		CDCBBBCB2249F171006E7407 /* 808 1 (C).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 1 (C).wav"; sourceTree = "<group>"; };
+		CDCBBBCC2249F171006E7407 /* 808 8 (C).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "808 8 (C).wav"; sourceTree = "<group>"; };
+		CDCBBBF82249F256006E7407 /* Clap 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 3.wav"; sourceTree = "<group>"; };
+		CDCBBBF92249F256006E7407 /* Clap 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 6.wav"; sourceTree = "<group>"; };
+		CDCBBBFA2249F257006E7407 /* Clap 14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 14.wav"; sourceTree = "<group>"; };
+		CDCBBBFB2249F257006E7407 /* Clap 15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 15.wav"; sourceTree = "<group>"; };
+		CDCBBBFC2249F257006E7407 /* Clap 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 7.wav"; sourceTree = "<group>"; };
+		CDCBBBFD2249F257006E7407 /* Clap 13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 13.wav"; sourceTree = "<group>"; };
+		CDCBBBFE2249F257006E7407 /* Clap 11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 11.wav"; sourceTree = "<group>"; };
+		CDCBBBFF2249F257006E7407 /* Clap 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 10.wav"; sourceTree = "<group>"; };
+		CDCBBC002249F257006E7407 /* Clap 12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 12.wav"; sourceTree = "<group>"; };
+		CDCBBC012249F257006E7407 /* Clap 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 4.wav"; sourceTree = "<group>"; };
+		CDCBBC022249F258006E7407 /* Clap 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 2.wav"; sourceTree = "<group>"; };
+		CDCBBC032249F258006E7407 /* Clap 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 8.wav"; sourceTree = "<group>"; };
+		CDCBBC042249F258006E7407 /* Clap 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 5.wav"; sourceTree = "<group>"; };
+		CDCBBC052249F258006E7407 /* Clap 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 9.wav"; sourceTree = "<group>"; };
+		CDCBBC062249F258006E7407 /* Clap 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Clap 1.wav"; sourceTree = "<group>"; };
+		CDCBBC352249F296006E7407 /* Chant 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Chant 4.wav"; sourceTree = "<group>"; };
+		CDCBBC362249F296006E7407 /* Chant 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Chant 6.wav"; sourceTree = "<group>"; };
+		CDCBBC372249F296006E7407 /* Chant 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Chant 7.wav"; sourceTree = "<group>"; };
+		CDCBBC382249F296006E7407 /* Chant 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Chant 1.wav"; sourceTree = "<group>"; };
+		CDCBBC392249F296006E7407 /* Chant 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Chant 2.wav"; sourceTree = "<group>"; };
+		CDCBBC3A2249F296006E7407 /* Chant 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Chant 3.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CDCBBB082245C360006E7407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCBBB2B2245C3E9006E7407 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +324,8 @@
 			isa = PBXGroup;
 			children = (
 				CDCBBB0D2245C360006E7407 /* BeatMachine */,
+				CDCBBB232245C3E6006E7407 /* BeatWatch */,
+				CDCBBB322245C3E9006E7407 /* BeatWatch Extension */,
 				CDCBBB0C2245C360006E7407 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +334,8 @@
 			isa = PBXGroup;
 			children = (
 				CDCBBB0B2245C360006E7407 /* BeatMachine.app */,
+				CDCBBB222245C3E6006E7407 /* BeatWatch.app */,
+				CDCBBB2E2245C3E9006E7407 /* BeatWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +353,123 @@
 			path = BeatMachine;
 			sourceTree = "<group>";
 		};
+		CDCBBB232245C3E6006E7407 /* BeatWatch */ = {
+			isa = PBXGroup;
+			children = (
+				CDCBBC4D2249F2AC006E7407 /* Bass */,
+				CDCBBC342249F279006E7407 /* Chant */,
+				CDCBBBF72249F23E006E7407 /* Claps */,
+				CDCBBBBE2249F14A006E7407 /* 808 */,
+				CDCBBB242245C3E6006E7407 /* Interface.storyboard */,
+				CDCBBB272245C3E8006E7407 /* Assets.xcassets */,
+				CDCBBB292245C3E8006E7407 /* Info.plist */,
+			);
+			path = BeatWatch;
+			sourceTree = "<group>";
+		};
+		CDCBBB322245C3E9006E7407 /* BeatWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CDCBBB452245CC93006E7407 /* Sounds */,
+				CDCBBB332245C3E9006E7407 /* InterfaceController.swift */,
+				CDCBBB352245C3E9006E7407 /* ExtensionDelegate.swift */,
+				CDCBBB372245C3E9006E7407 /* Assets.xcassets */,
+				CDCBBB392245C3E9006E7407 /* Info.plist */,
+			);
+			path = "BeatWatch Extension";
+			sourceTree = "<group>";
+		};
+		CDCBBB452245CC93006E7407 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CDCBBB462245CCB2006E7407 /* note1.wav */,
+				CDCBBB482245CCB8006E7407 /* note2.wav */,
+				CDCBBB4E2245CCC1006E7407 /* note3.wav */,
+				CDCBBB4A2245CCC1006E7407 /* note4.wav */,
+				CDCBBB4B2245CCC1006E7407 /* note5.wav */,
+				CDCBBB4C2245CCC1006E7407 /* note6.wav */,
+				CDCBBB4D2245CCC1006E7407 /* note7.wav */,
+				CDCBBB6D224727DA006E7407 /* Kick1.wav */,
+				CDCBBB75224727DB006E7407 /* Kick2.wav */,
+				CDCBBB76224727DB006E7407 /* Kick3.wav */,
+				CDCBBB73224727DB006E7407 /* Kick4.wav */,
+				CDCBBB74224727DB006E7407 /* Kick5.wav */,
+				CDCBBB6A224727DA006E7407 /* Kick6.wav */,
+				CDCBBB6F224727DA006E7407 /* Kick7.wav */,
+				CDCBBB70224727DA006E7407 /* Kick8.wav */,
+				CDCBBB6E224727DA006E7407 /* Kick9.wav */,
+				CDCBBB71224727DA006E7407 /* Kick10.wav */,
+				CDCBBB6C224727DA006E7407 /* NIGHTSKICK.wav */,
+				CDCBBB6B224727DA006E7407 /* NIGHTSKICK2.wav */,
+				CDCBBB72224727DA006E7407 /* NIKESKICK.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		CDCBBBBE2249F14A006E7407 /* 808 */ = {
+			isa = PBXGroup;
+			children = (
+				CDCBBBCB2249F171006E7407 /* 808 1 (C).wav */,
+				CDCBBBC42249F170006E7407 /* 808 2 (C).wav */,
+				CDCBBBC32249F170006E7407 /* 808 3 (C).wav */,
+				CDCBBBC12249F16F006E7407 /* 808 4 (C).wav */,
+				CDCBBBBF2249F16F006E7407 /* 808 5 (D).wav */,
+				CDCBBBC02249F16F006E7407 /* 808 6 (G#).wav */,
+				CDCBBBC22249F16F006E7407 /* 808 7 (D#).wav */,
+				CDCBBBCC2249F171006E7407 /* 808 8 (C).wav */,
+				CDCBBBC92249F170006E7407 /* 808 9 (C).wav */,
+				CDCBBBC72249F170006E7407 /* 808 10 (G).wav */,
+				CDCBBBC52249F170006E7407 /* 808 11 (C).wav */,
+				CDCBBBCA2249F171006E7407 /* 808 12 (E).wav */,
+				CDCBBBC62249F170006E7407 /* 808 13 (E).wav */,
+				CDCBBBC82249F170006E7407 /* 808 14 (D#).wav */,
+			);
+			path = 808;
+			sourceTree = "<group>";
+		};
+		CDCBBBF72249F23E006E7407 /* Claps */ = {
+			isa = PBXGroup;
+			children = (
+				CDCBBC062249F258006E7407 /* Clap 1.wav */,
+				CDCBBC022249F258006E7407 /* Clap 2.wav */,
+				CDCBBBF82249F256006E7407 /* Clap 3.wav */,
+				CDCBBC012249F257006E7407 /* Clap 4.wav */,
+				CDCBBC042249F258006E7407 /* Clap 5.wav */,
+				CDCBBBF92249F256006E7407 /* Clap 6.wav */,
+				CDCBBBFC2249F257006E7407 /* Clap 7.wav */,
+				CDCBBC032249F258006E7407 /* Clap 8.wav */,
+				CDCBBC052249F258006E7407 /* Clap 9.wav */,
+				CDCBBBFF2249F257006E7407 /* Clap 10.wav */,
+				CDCBBBFE2249F257006E7407 /* Clap 11.wav */,
+				CDCBBC002249F257006E7407 /* Clap 12.wav */,
+				CDCBBBFD2249F257006E7407 /* Clap 13.wav */,
+				CDCBBBFA2249F257006E7407 /* Clap 14.wav */,
+				CDCBBBFB2249F257006E7407 /* Clap 15.wav */,
+			);
+			path = Claps;
+			sourceTree = "<group>";
+		};
+		CDCBBC342249F279006E7407 /* Chant */ = {
+			isa = PBXGroup;
+			children = (
+				CDCBBC382249F296006E7407 /* Chant 1.wav */,
+				CDCBBC392249F296006E7407 /* Chant 2.wav */,
+				CDCBBC3A2249F296006E7407 /* Chant 3.wav */,
+				CDCBBC352249F296006E7407 /* Chant 4.wav */,
+				CDCBBC362249F296006E7407 /* Chant 6.wav */,
+				CDCBBC372249F296006E7407 /* Chant 7.wav */,
+			);
+			path = Chant;
+			sourceTree = "<group>";
+		};
+		CDCBBC4D2249F2AC006E7407 /* Bass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Bass;
+			path = Claps/Bass;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +480,51 @@
 				CDCBBB072245C360006E7407 /* Sources */,
 				CDCBBB082245C360006E7407 /* Frameworks */,
 				CDCBBB092245C360006E7407 /* Resources */,
+				CDCBBB442245C3E9006E7407 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CDCBBB3B2245C3E9006E7407 /* PBXTargetDependency */,
 			);
 			name = BeatMachine;
 			productName = BeatMachine;
 			productReference = CDCBBB0B2245C360006E7407 /* BeatMachine.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CDCBBB212245C3E6006E7407 /* BeatWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCBBB412245C3E9006E7407 /* Build configuration list for PBXNativeTarget "BeatWatch" */;
+			buildPhases = (
+				CDCBBB202245C3E6006E7407 /* Resources */,
+				CDCBBB402245C3E9006E7407 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCBBB312245C3E9006E7407 /* PBXTargetDependency */,
+			);
+			name = BeatWatch;
+			productName = BeatWatch;
+			productReference = CDCBBB222245C3E6006E7407 /* BeatWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CDCBBB2D2245C3E9006E7407 /* BeatWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCBBB3D2245C3E9006E7407 /* Build configuration list for PBXNativeTarget "BeatWatch Extension" */;
+			buildPhases = (
+				CDCBBB2A2245C3E9006E7407 /* Sources */,
+				CDCBBB2B2245C3E9006E7407 /* Frameworks */,
+				CDCBBB2C2245C3E9006E7407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeatWatch Extension";
+			productName = "BeatWatch Extension";
+			productReference = CDCBBB2E2245C3E9006E7407 /* BeatWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +537,12 @@
 				ORGANIZATIONNAME = "Eric Fuentes";
 				TargetAttributes = {
 					CDCBBB0A2245C360006E7407 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CDCBBB212245C3E6006E7407 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CDCBBB2D2245C3E9006E7407 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +561,8 @@
 			projectRoot = "";
 			targets = (
 				CDCBBB0A2245C360006E7407 /* BeatMachine */,
+				CDCBBB212245C3E6006E7407 /* BeatWatch */,
+				CDCBBB2D2245C3E9006E7407 /* BeatWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +572,191 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCBBBE82249F171006E7407 /* 808 14 (D#).wav in Resources */,
+				CDCBBC192249F258006E7407 /* Clap 11.wav in Resources */,
+				CDCBBB89224727DB006E7407 /* Kick8.wav in Resources */,
+				CDCBBB602247214E006E7407 /* note6.wav in Resources */,
+				CDCBBB5F2247214C006E7407 /* note5.wav in Resources */,
+				CDCBBBE52249F171006E7407 /* 808 10 (G).wav in Resources */,
+				CDCBBC442249F297006E7407 /* Chant 1.wav in Resources */,
+				CDCBBBD32249F171006E7407 /* 808 4 (C).wav in Resources */,
+				CDCBBC4A2249F297006E7407 /* Chant 3.wav in Resources */,
+				CDCBBBDF2249F171006E7407 /* 808 11 (C).wav in Resources */,
+				CDCBBBCD2249F171006E7407 /* 808 5 (D).wav in Resources */,
+				CDCBBB5D22472146006E7407 /* note3.wav in Resources */,
+				CDCBBB5B2247213D006E7407 /* note1.wav in Resources */,
+				CDCBBB7A224727DB006E7407 /* NIGHTSKICK2.wav in Resources */,
+				CDCBBC2E2249F258006E7407 /* Clap 9.wav in Resources */,
+				CDCBBC132249F258006E7407 /* Clap 7.wav in Resources */,
+				CDCBBC2B2249F258006E7407 /* Clap 5.wav in Resources */,
+				CDCBBB7D224727DB006E7407 /* NIGHTSKICK.wav in Resources */,
+				CDCBBB80224727DB006E7407 /* Kick1.wav in Resources */,
+				CDCBBC3E2249F296006E7407 /* Chant 6.wav in Resources */,
+				CDCBBBD02249F171006E7407 /* 808 6 (G#).wav in Resources */,
+				CDCBBC472249F297006E7407 /* Chant 2.wav in Resources */,
+				CDCBBB95224727DB006E7407 /* Kick5.wav in Resources */,
+				CDCBBB5E22472149006E7407 /* note4.wav in Resources */,
+				CDCBBB5C22472143006E7407 /* note2.wav in Resources */,
+				CDCBBB77224727DB006E7407 /* Kick6.wav in Resources */,
+				CDCBBC0A2249F258006E7407 /* Clap 6.wav in Resources */,
+				CDCBBC412249F297006E7407 /* Chant 7.wav in Resources */,
+				CDCBBBEE2249F171006E7407 /* 808 12 (E).wav in Resources */,
+				CDCBBBEB2249F171006E7407 /* 808 9 (C).wav in Resources */,
+				CDCBBBE22249F171006E7407 /* 808 13 (E).wav in Resources */,
+				CDCBBB8F224727DB006E7407 /* NIKESKICK.wav in Resources */,
+				CDCBBBF12249F171006E7407 /* 808 1 (C).wav in Resources */,
+				CDCBBC1F2249F258006E7407 /* Clap 12.wav in Resources */,
+				CDCBBB6122472150006E7407 /* note7.wav in Resources */,
 				CDCBBB192245C362006E7407 /* LaunchScreen.storyboard in Resources */,
+				CDCBBC072249F258006E7407 /* Clap 3.wav in Resources */,
 				CDCBBB162245C362006E7407 /* Assets.xcassets in Resources */,
+				CDCBBC1C2249F258006E7407 /* Clap 10.wav in Resources */,
 				CDCBBB142245C360006E7407 /* Main.storyboard in Resources */,
+				CDCBBC312249F258006E7407 /* Clap 1.wav in Resources */,
+				CDCBBBD92249F171006E7407 /* 808 3 (C).wav in Resources */,
+				CDCBBBD62249F171006E7407 /* 808 7 (D#).wav in Resources */,
+				CDCBBC222249F258006E7407 /* Clap 4.wav in Resources */,
+				CDCBBB9B224727DB006E7407 /* Kick3.wav in Resources */,
+				CDCBBBF42249F171006E7407 /* 808 8 (C).wav in Resources */,
+				CDCBBC3B2249F296006E7407 /* Chant 4.wav in Resources */,
+				CDCBBC282249F258006E7407 /* Clap 8.wav in Resources */,
+				CDCBBB8C224727DB006E7407 /* Kick10.wav in Resources */,
+				CDCBBBDC2249F171006E7407 /* 808 2 (C).wav in Resources */,
+				CDCBBC252249F258006E7407 /* Clap 2.wav in Resources */,
+				CDCBBB86224727DB006E7407 /* Kick7.wav in Resources */,
+				CDCBBC162249F258006E7407 /* Clap 13.wav in Resources */,
+				CDCBBC0D2249F258006E7407 /* Clap 14.wav in Resources */,
+				CDCBBB83224727DB006E7407 /* Kick9.wav in Resources */,
+				CDCBBB92224727DB006E7407 /* Kick4.wav in Resources */,
+				CDCBBB98224727DB006E7407 /* Kick2.wav in Resources */,
+				CDCBBC102249F258006E7407 /* Clap 15.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCBBB202245C3E6006E7407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCBBB532245CCC1006E7407 /* note3.wav in Resources */,
+				CDCBBB7E224727DB006E7407 /* NIGHTSKICK.wav in Resources */,
+				CDCBBC4B2249F297006E7407 /* Chant 3.wav in Resources */,
+				CDCBBC232249F258006E7407 /* Clap 4.wav in Resources */,
+				CDCBBB502245CCC1006E7407 /* note5.wav in Resources */,
+				CDCBBC0E2249F258006E7407 /* Clap 14.wav in Resources */,
+				CDCBBB90224727DB006E7407 /* NIKESKICK.wav in Resources */,
+				CDCBBC112249F258006E7407 /* Clap 15.wav in Resources */,
+				CDCBBB472245CCB2006E7407 /* note1.wav in Resources */,
+				CDCBBB522245CCC1006E7407 /* note7.wav in Resources */,
+				CDCBBB8D224727DB006E7407 /* Kick10.wav in Resources */,
+				CDCBBC172249F258006E7407 /* Clap 13.wav in Resources */,
+				CDCBBB492245CCB8006E7407 /* note2.wav in Resources */,
+				CDCBBBE92249F171006E7407 /* 808 14 (D#).wav in Resources */,
+				CDCBBC2F2249F258006E7407 /* Clap 9.wav in Resources */,
+				CDCBBB78224727DB006E7407 /* Kick6.wav in Resources */,
+				CDCBBB512245CCC1006E7407 /* note6.wav in Resources */,
+				CDCBBB87224727DB006E7407 /* Kick7.wav in Resources */,
+				CDCBBC082249F258006E7407 /* Clap 3.wav in Resources */,
+				CDCBBBCE2249F171006E7407 /* 808 5 (D).wav in Resources */,
+				CDCBBBE02249F171006E7407 /* 808 11 (C).wav in Resources */,
+				CDCBBB7B224727DB006E7407 /* NIGHTSKICK2.wav in Resources */,
+				CDCBBB96224727DB006E7407 /* Kick5.wav in Resources */,
+				CDCBBB81224727DB006E7407 /* Kick1.wav in Resources */,
+				CDCBBC482249F297006E7407 /* Chant 2.wav in Resources */,
+				CDCBBBD42249F171006E7407 /* 808 4 (C).wav in Resources */,
+				CDCBBB84224727DB006E7407 /* Kick9.wav in Resources */,
+				CDCBBC452249F297006E7407 /* Chant 1.wav in Resources */,
+				CDCBBC3C2249F296006E7407 /* Chant 4.wav in Resources */,
+				CDCBBB4F2245CCC1006E7407 /* note4.wav in Resources */,
+				CDCBBC1A2249F258006E7407 /* Clap 11.wav in Resources */,
+				CDCBBB93224727DB006E7407 /* Kick4.wav in Resources */,
+				CDCBBBE62249F171006E7407 /* 808 10 (G).wav in Resources */,
+				CDCBBBDD2249F171006E7407 /* 808 2 (C).wav in Resources */,
+				CDCBBC3F2249F297006E7407 /* Chant 6.wav in Resources */,
+				CDCBBC422249F297006E7407 /* Chant 7.wav in Resources */,
+				CDCBBB99224727DB006E7407 /* Kick2.wav in Resources */,
+				CDCBBBD12249F171006E7407 /* 808 6 (G#).wav in Resources */,
+				CDCBBC0B2249F258006E7407 /* Clap 6.wav in Resources */,
+				CDCBBBF52249F171006E7407 /* 808 8 (C).wav in Resources */,
+				CDCBBB282245C3E8006E7407 /* Assets.xcassets in Resources */,
+				CDCBBC322249F258006E7407 /* Clap 1.wav in Resources */,
+				CDCBBC202249F258006E7407 /* Clap 12.wav in Resources */,
+				CDCBBBEC2249F171006E7407 /* 808 9 (C).wav in Resources */,
+				CDCBBBF22249F171006E7407 /* 808 1 (C).wav in Resources */,
+				CDCBBBDA2249F171006E7407 /* 808 3 (C).wav in Resources */,
+				CDCBBC262249F258006E7407 /* Clap 2.wav in Resources */,
+				CDCBBC1D2249F258006E7407 /* Clap 10.wav in Resources */,
+				CDCBBC142249F258006E7407 /* Clap 7.wav in Resources */,
+				CDCBBB262245C3E6006E7407 /* Interface.storyboard in Resources */,
+				CDCBBBE32249F171006E7407 /* 808 13 (E).wav in Resources */,
+				CDCBBB9C224727DB006E7407 /* Kick3.wav in Resources */,
+				CDCBBBEF2249F171006E7407 /* 808 12 (E).wav in Resources */,
+				CDCBBB8A224727DB006E7407 /* Kick8.wav in Resources */,
+				CDCBBC292249F258006E7407 /* Clap 8.wav in Resources */,
+				CDCBBBD72249F171006E7407 /* 808 7 (D#).wav in Resources */,
+				CDCBBC2C2249F258006E7407 /* Clap 5.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCBBB2C2245C3E9006E7407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCBBB5A2245D24A006E7407 /* note7.wav in Resources */,
+				CDCBBB592245D246006E7407 /* note6.wav in Resources */,
+				CDCBBC302249F258006E7407 /* Clap 9.wav in Resources */,
+				CDCBBC0C2249F258006E7407 /* Clap 6.wav in Resources */,
+				CDCBBC1B2249F258006E7407 /* Clap 11.wav in Resources */,
+				CDCBBB88224727DB006E7407 /* Kick7.wav in Resources */,
+				CDCBBB79224727DB006E7407 /* Kick6.wav in Resources */,
+				CDCBBB582245D243006E7407 /* note5.wav in Resources */,
+				CDCBBBDE2249F171006E7407 /* 808 2 (C).wav in Resources */,
+				CDCBBC182249F258006E7407 /* Clap 13.wav in Resources */,
+				CDCBBBEA2249F171006E7407 /* 808 14 (D#).wav in Resources */,
+				CDCBBC212249F258006E7407 /* Clap 12.wav in Resources */,
+				CDCBBB7C224727DB006E7407 /* NIGHTSKICK2.wav in Resources */,
+				CDCBBC332249F258006E7407 /* Clap 1.wav in Resources */,
+				CDCBBB572245D23F006E7407 /* note4.wav in Resources */,
+				CDCBBC092249F258006E7407 /* Clap 3.wav in Resources */,
+				CDCBBBCF2249F171006E7407 /* 808 5 (D).wav in Resources */,
+				CDCBBBDB2249F171006E7407 /* 808 3 (C).wav in Resources */,
+				CDCBBC272249F258006E7407 /* Clap 2.wav in Resources */,
+				CDCBBC152249F258006E7407 /* Clap 7.wav in Resources */,
+				CDCBBB562245D23C006E7407 /* note3.wav in Resources */,
+				CDCBBB552245D234006E7407 /* note2.wav in Resources */,
+				CDCBBBE12249F171006E7407 /* 808 11 (C).wav in Resources */,
+				CDCBBB8E224727DB006E7407 /* Kick10.wav in Resources */,
+				CDCBBB82224727DB006E7407 /* Kick1.wav in Resources */,
+				CDCBBB94224727DB006E7407 /* Kick4.wav in Resources */,
+				CDCBBC432249F297006E7407 /* Chant 7.wav in Resources */,
+				CDCBBC242249F258006E7407 /* Clap 4.wav in Resources */,
+				CDCBBBF62249F171006E7407 /* 808 8 (C).wav in Resources */,
+				CDCBBB7F224727DB006E7407 /* NIGHTSKICK.wav in Resources */,
+				CDCBBBE42249F171006E7407 /* 808 13 (E).wav in Resources */,
+				CDCBBB9A224727DB006E7407 /* Kick2.wav in Resources */,
+				CDCBBC2A2249F258006E7407 /* Clap 8.wav in Resources */,
+				CDCBBB9D224727DB006E7407 /* Kick3.wav in Resources */,
+				CDCBBC492249F297006E7407 /* Chant 2.wav in Resources */,
+				CDCBBC0F2249F258006E7407 /* Clap 14.wav in Resources */,
+				CDCBBBD82249F171006E7407 /* 808 7 (D#).wav in Resources */,
+				CDCBBC3D2249F296006E7407 /* Chant 4.wav in Resources */,
+				CDCBBBED2249F171006E7407 /* 808 9 (C).wav in Resources */,
+				CDCBBC122249F258006E7407 /* Clap 15.wav in Resources */,
+				CDCBBC4C2249F297006E7407 /* Chant 3.wav in Resources */,
+				CDCBBBE72249F171006E7407 /* 808 10 (G).wav in Resources */,
+				CDCBBBF02249F171006E7407 /* 808 12 (E).wav in Resources */,
+				CDCBBB8B224727DB006E7407 /* Kick8.wav in Resources */,
+				CDCBBBF32249F171006E7407 /* 808 1 (C).wav in Resources */,
+				CDCBBBD52249F171006E7407 /* 808 4 (C).wav in Resources */,
+				CDCBBB85224727DB006E7407 /* Kick9.wav in Resources */,
+				CDCBBB97224727DB006E7407 /* Kick5.wav in Resources */,
+				CDCBBB542245D22F006E7407 /* note1.wav in Resources */,
+				CDCBBC2D2249F258006E7407 /* Clap 5.wav in Resources */,
+				CDCBBC402249F297006E7407 /* Chant 6.wav in Resources */,
+				CDCBBC1E2249F258006E7407 /* Clap 10.wav in Resources */,
+				CDCBBC462249F297006E7407 /* Chant 1.wav in Resources */,
+				CDCBBBD22249F171006E7407 /* 808 6 (G#).wav in Resources */,
+				CDCBBB382245C3E9006E7407 /* Assets.xcassets in Resources */,
+				CDCBBB91224727DB006E7407 /* NIKESKICK.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +772,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDCBBB2A2245C3E9006E7407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCBBB362245C3E9006E7407 /* ExtensionDelegate.swift in Sources */,
+				CDCBBB342245C3E9006E7407 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDCBBB312245C3E9006E7407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDCBBB2D2245C3E9006E7407 /* BeatWatch Extension */;
+			targetProxy = CDCBBB302245C3E9006E7407 /* PBXContainerItemProxy */;
+		};
+		CDCBBB3B2245C3E9006E7407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDCBBB212245C3E6006E7407 /* BeatWatch */;
+			targetProxy = CDCBBB3A2245C3E9006E7407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CDCBBB122245C360006E7407 /* Main.storyboard */ = {
@@ -157,6 +811,14 @@
 				CDCBBB182245C362006E7407 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CDCBBB242245C3E6006E7407 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCBBB252245C3E6006E7407 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -314,6 +976,90 @@
 			};
 			name = Release;
 		};
+		CDCBBB3E2245C3E9006E7407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJFJ4F2LJV;
+				INFOPLIST_FILE = "BeatWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricFuentes.BeatMachine.watchkitapp.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		CDCBBB3F2245C3E9006E7407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJFJ4F2LJV;
+				INFOPLIST_FILE = "BeatWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricFuentes.BeatMachine.watchkitapp.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		CDCBBB422245C3E9006E7407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJFJ4F2LJV;
+				IBSC_MODULE = BeatWatch_Extension;
+				INFOPLIST_FILE = BeatWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricFuentes.BeatMachine.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		CDCBBB432245C3E9006E7407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJFJ4F2LJV;
+				IBSC_MODULE = BeatWatch_Extension;
+				INFOPLIST_FILE = BeatWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EricFuentes.BeatMachine.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +1077,24 @@
 			buildConfigurations = (
 				CDCBBB1E2245C362006E7407 /* Debug */,
 				CDCBBB1F2245C362006E7407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCBBB3D2245C3E9006E7407 /* Build configuration list for PBXNativeTarget "BeatWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCBBB3E2245C3E9006E7407 /* Debug */,
+				CDCBBB3F2245C3E9006E7407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCBBB412245C3E9006E7407 /* Build configuration list for PBXNativeTarget "BeatWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCBBB422245C3E9006E7407 /* Debug */,
+				CDCBBB432245C3E9006E7407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

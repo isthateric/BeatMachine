@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="BeatWatch" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="1Fn-gT-c78">
+                            <items>
+                                <button width="0.5" alignment="left" id="Uqq-xY-Ox4">
+                                    <color key="backgroundColor" red="0.90588235289999997" green="0.87827224339999999" blue="0.2290727021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="beat1" destination="AgC-eL-Hgc" id="gmw-6X-w3M"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" id="7a4-qG-F36">
+                                    <color key="backgroundColor" red="0.90588235289999997" green="0.87827224339999999" blue="0.2290727021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="beat2" destination="AgC-eL-Hgc" id="o1J-BO-BFl"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="BPw-Ks-T9i">
+                            <items>
+                                <button width="0.5" alignment="left" id="gNc-vL-8ug">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="backgroundColor" red="0.90588235289999997" green="0.87827224339999999" blue="0.2290727021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="beat3" destination="AgC-eL-Hgc" id="A7f-tQ-FYR"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" id="UYM-Qc-nQB">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="backgroundColor" red="0.90588235289999997" green="0.87827224339999999" blue="0.2290727021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="beat4" destination="AgC-eL-Hgc" id="Qw6-ZF-sVM"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="WVR-06-o9F">
+                            <items>
+                                <button width="0.5" alignment="left" id="V2h-He-9oE">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="backgroundColor" red="0.90588235289999997" green="0.87827224339999999" blue="0.2290727021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="beat5" destination="AgC-eL-Hgc" id="113-XG-DhK"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" id="PhY-0B-wUK">
+                                    <color key="backgroundColor" red="0.90588235289999997" green="0.87827224339999999" blue="0.2290727021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="beat6" destination="AgC-eL-Hgc" id="nBW-gM-TMz"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
